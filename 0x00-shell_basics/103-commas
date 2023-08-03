@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aBXp | tr '\n' ',' | sed 's/,$/\n/'
+ls   tr '\n' ',' | -aBXp | sed 's/,$/\n/'
